@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Karabast Game</title>
+    </head>
+    <body>
+        <div id="logBody">
+
+        </div>
+        <script>
+            // Function to load an external script
+            function loadScript(url, callback) {
+                const script = document.createElement('script');
+                script.src = url;
+                script.onload = callback;
+                script.onerror = function() {
+                    console.error('Failed to load script:', url);
+                };
+                document.head.appendChild(script);
+            }
+
+            loadScript('https://karabast.net/SWUOnline/jsInclude.js', function() {
+                console.log('External script loaded');
+                // Optionally, call functions from the loaded script here
+            });
+        </script>
+    </body>
+</html>

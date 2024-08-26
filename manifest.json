@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Karabast log tool",
+    "version": "1.0",
+    "description": "A Chrome extension that saves the chat log from a karabast game.",
+    "permissions": ["activeTab", "scripting"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["popup.js"]
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "karabast16.png",
+        "48": "karabast48.png",
+        "128": "karabast128.png"
+      }
+    }
+  }
