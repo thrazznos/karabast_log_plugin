@@ -9,6 +9,6 @@ This extension is not yet compiled so you can just add the files to chrome manua
 
 It should load the extension.
 
-You can click on your extensions icon and pin the extension if you want it to always be visible. The extension identifies if you are on a page of a karabast game, and if so it will scrape and download the chat log of the game.
+You can click on your extensions icon and pin the extension if you want it to always be visible. The extension identifies if you are on a page of a karabast.net game, and if so it will scrape and download the chat log of the game.
 
 Pretty simple
